@@ -1,0 +1,150 @@
+$dark:rgb(11, 75, 83);
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+
+}
+.lead-banner{
+    img{
+        width: 100vw;
+    }
+}
+#main-nav{
+    background-color: $dark;
+    width: 100%;
+    ul{
+        
+        margin: 20px;
+        text-align: center;  
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        li{
+            list-style-type: none;
+            
+            a{
+                text-decoration: none;
+                letter-spacing: 0.12em;
+                font-weight: bold;
+                color: white;
+            }
+        }
+    }
+
+}
+
+.lead-banner{
+    .wrapper{
+        position: absolute;
+        top: 15%;
+        right: 3%;
+        text-align: right;
+        text-transform: uppercase;
+        .title{
+            color: white;
+            font-size: 4.7em;
+            font-weight: bold;
+            display: block;
+        }
+        .sub-title{
+            color: white;
+            font-size: 4.7em;
+        }
+    }
+}
+
+#services{
+    h1{
+        text-align: center;
+        padding: 30px 0px;
+        color: $dark;
+        text-transform: uppercase;
+    }
+    ul{
+
+        margin: 20px;
+        text-align: center;  
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        li{
+            list-style-type: none;
+            margin: 0px 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: column;
+            img{
+                padding-bottom: 28px;
+            }
+            a{
+                text-decoration: none;
+                letter-spacing: 0.12em;
+                font-weight: bold;
+                color: $dark;
+                padding-bottom: 30px;
+            }
+        }
+    }
+}
+
+.lessons-banner{
+    img{
+        width: 100vw;
+    }
+}
+
+.lessons-banner{
+    position: relative;
+    .banner-content{
+        position: absolute;
+        top: 15%;
+        right: 40%;
+        text-align: left;
+        text-transform: uppercase;
+        .title{
+            color: white;
+            font-size: 4.7em;
+            font-weight: bold;
+            display: block;
+        }
+        .sub-title{
+            color: white;
+            font-size: 4.7em;
+        }
+
+        ul{
+
+            margin: 20px;
+            color: white;
+            
+            li{
+                text-align: left;
+                list-style-type: none;
+                font-size: 25px;
+                margin: 80px 0px;
+                
+                img{
+                    padding-bottom: 28px;
+                }
+                a{
+                    text-decoration: none;
+                    letter-spacing: 0.12em;
+                    font-weight: bold;
+                    color: $dark;
+                    padding-bottom: 30px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,101 @@
+$primaryColor: darkslategrey;
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+@mixin PositionBanner() {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+@mixin Banners($position) {
+  position: absolute;
+  @if ($position == right) {
+    top: 50px;
+    right: 16px;
+  } @else {
+    top: 50px;
+    right: 16px;
+  }
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-transform: uppercase;
+  }
+  .title {
+    display: block;
+    font-size: 36px;
+    font-weight: bold;
+  }
+  .sub-title {
+    font-size: 36px;
+  }
+}
+
+#main-nav {
+  background-color: $primaryColor;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  padding: 15px;
+}
+
+ul a:link {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.lead-banner {
+  @include PositionBanner();
+}
+.lead-banner .banner-content {
+  @include Banners(right);
+}
+
+.lead-banner img {
+  width: 100%;
+}
+
+#services .wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#services .wrapper ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+#services .wrapper ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px;
+}
+#services .wrapper ul a {
+  color: $primaryColor;
+  margin: 5px;
+}
+
+.lessons-banner img {
+  width: 100%;
+}
+
+.lessons-banner {
+  @include PositionBanner();
+}
+.lessons-banner .banner-content {
+  @include Banners(left);
+}

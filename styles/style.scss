@@ -1,0 +1,116 @@
+$sans: 'Segoe UI', Tahoma, sans-serif;
+*{
+    padding: 0;
+    margin: 0;
+    font-family: $sans;
+}
+#main-nav {
+    background-color: #022F3F;
+    padding: 10px;
+    ul {
+        display: flex;
+        justify-content: space-around;
+        li {
+            list-style-type: none;
+            a{
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+}
+.lead-banner{
+    img {
+        width: 100vw;
+    }
+    .wrapper{
+        position: absolute;
+        top: 20%;
+        right: 5%;
+        font-size: 2.5em;
+        text-align: right;
+        font-weight: bold;
+        text-transform: uppercase;
+        color:white;
+        .sub-title{
+            font-weight: normal;
+        }
+    }  
+}
+#services {
+    padding: 30px;
+    color: #022F3F;
+    background-color: #F8F9FB;
+    .wrapper h1{
+        text-align: center;
+    }
+    ul {
+        height: 250px;
+        margin-top: 1.2em;
+        display: flex;
+        justify-content: space-around;
+        li {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            list-style-type: none;
+            a{
+                text-decoration: none;
+                color: #022F3F;
+                text-align: center;
+                font-size: 1.2em;
+            }
+        }
+    }
+}
+.lessons-banner {
+    position: relative;
+    img{
+        width: 100vw;
+    }
+    .banner-content{
+        position: absolute;
+        top: 15%;
+        left: 1%;
+        font-size: 1em;
+        text-align: left;
+        text-transform: uppercase;
+        color:white;
+        .wrapper{
+            height: 100vh;
+        
+        .title{
+            font-size: 2em;
+            display: block;
+            font-weight: bold;
+        }
+        .sub-title{
+            font-size: 2em;
+        }
+        ul {
+            line-height: 5em;
+            
+            li {
+                list-style-type: none;
+            }
+        }
+     }
+    }
+    
+}
+#projects{
+    padding: 30px;
+    color: #022F3F;
+    background-color: #F8F9FB;
+    text-align: center;
+    ul {
+        margin-top: 10px;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(6, 150px);
+    gap:10px;
+    li {
+        list-style-type: none;
+    }
+    }
+}

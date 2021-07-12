@@ -1,0 +1,149 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+#main-nav {
+  background-color: #022F3F;
+  padding: 10px;
+}
+
+#main-nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#main-nav ul li {
+  list-style-type: none;
+}
+
+#main-nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.lead-banner img {
+  width: 100vw;
+}
+
+.lead-banner .wrapper {
+  position: absolute;
+  top: 20%;
+  right: 5%;
+  font-size: 2.5em;
+  text-align: right;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+}
+
+.lead-banner .wrapper .sub-title {
+  font-weight: normal;
+}
+
+#services {
+  padding: 30px;
+  color: #022F3F;
+  background-color: #F8F9FB;
+}
+
+#services .wrapper h1 {
+  text-align: center;
+}
+
+#services ul {
+  height: 250px;
+  margin-top: 1.2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#services ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  list-style-type: none;
+}
+
+#services ul li a {
+  text-decoration: none;
+  color: #022F3F;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.lessons-banner {
+  position: relative;
+}
+
+.lessons-banner img {
+  width: 100vw;
+}
+
+.lessons-banner .banner-content {
+  position: absolute;
+  top: 15%;
+  left: 1%;
+  font-size: 1em;
+  text-align: left;
+  text-transform: uppercase;
+  color: white;
+}
+
+.lessons-banner .banner-content .wrapper {
+  height: 100vh;
+}
+
+.lessons-banner .banner-content .wrapper .title {
+  font-size: 2em;
+  display: block;
+  font-weight: bold;
+}
+
+.lessons-banner .banner-content .wrapper .sub-title {
+  font-size: 2em;
+}
+
+.lessons-banner .banner-content .wrapper ul {
+  line-height: 5em;
+}
+
+.lessons-banner .banner-content .wrapper ul li {
+  list-style-type: none;
+}
+
+#projects {
+  padding: 30px;
+  color: #022F3F;
+  background-color: #F8F9FB;
+  text-align: center;
+}
+
+#projects ul {
+  margin-top: 10px;
+  width: 100vw;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (150px)[6];
+      grid-template-columns: repeat(6, 150px);
+  gap: 10px;
+}
+
+#projects ul li {
+  list-style-type: none;
+}
+/*# sourceMappingURL=style.css.map */

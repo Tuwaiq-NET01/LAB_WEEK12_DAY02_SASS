@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow-x: hidden;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.lead-banner img {
+  width: 100vw;
+}
+
+#main-nav {
+  background-color: #0b4b53;
+  width: 100%;
+}
+
+#main-nav ul {
+  margin: 20px;
+  text-align: center;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#main-nav ul li {
+  list-style-type: none;
+}
+
+#main-nav ul li a {
+  text-decoration: none;
+  letter-spacing: 0.12em;
+  font-weight: bold;
+  color: white;
+}
+
+.lead-banner .wrapper {
+  position: absolute;
+  top: 15%;
+  right: 3%;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.lead-banner .wrapper .title {
+  color: white;
+  font-size: 4.7em;
+  font-weight: bold;
+  display: block;
+}
+
+.lead-banner .wrapper .sub-title {
+  color: white;
+  font-size: 4.7em;
+}
+
+#services h1 {
+  text-align: center;
+  padding: 30px 0px;
+  color: #0b4b53;
+  text-transform: uppercase;
+}
+
+#services ul {
+  margin: 20px;
+  text-align: center;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#services ul li {
+  list-style-type: none;
+  margin: 0px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#services ul li img {
+  padding-bottom: 28px;
+}
+
+#services ul li a {
+  text-decoration: none;
+  letter-spacing: 0.12em;
+  font-weight: bold;
+  color: #0b4b53;
+  padding-bottom: 30px;
+}
+
+.lessons-banner img {
+  width: 100vw;
+}
+
+.lessons-banner {
+  position: relative;
+}
+
+.lessons-banner .banner-content {
+  position: absolute;
+  top: 15%;
+  right: 40%;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.lessons-banner .banner-content .title {
+  color: white;
+  font-size: 4.7em;
+  font-weight: bold;
+  display: block;
+}
+
+.lessons-banner .banner-content .sub-title {
+  color: white;
+  font-size: 4.7em;
+}
+
+.lessons-banner .banner-content ul {
+  margin: 20px;
+  color: white;
+}
+
+.lessons-banner .banner-content ul li {
+  text-align: left;
+  list-style-type: none;
+  font-size: 25px;
+  margin: 80px 0px;
+}
+
+.lessons-banner .banner-content ul li img {
+  padding-bottom: 28px;
+}
+
+.lessons-banner .banner-content ul li a {
+  text-decoration: none;
+  letter-spacing: 0.12em;
+  font-weight: bold;
+  color: #0b4b53;
+  padding-bottom: 30px;
+}
+/*# sourceMappingURL=style.css.map */

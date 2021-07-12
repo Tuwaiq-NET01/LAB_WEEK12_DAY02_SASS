@@ -1,0 +1,152 @@
+
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans");
+
+#container {
+  width: 100%;
+  display: inline-block;
+}
+
+
+nav {
+  overflow: hidden;
+  background-color: rgb(146, 172, 214);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+  ul {
+    text-align: center;
+    list-style-type: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+  }
+    li {
+      display: inline;
+      font-family: "Fira Sans", sans-serif;
+      font-size: 17px;
+    }
+      a {
+        color: #f2f2f2;
+        text-decoration: none;
+        padding: 14px;
+      }
+
+.content {
+  text-align: center;
+}
+img{
+    width: 1400px;
+    display: block;
+}
+.im2{
+    width: 100px !important;
+    display: inline-block; 
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+}
+.lead-banner {
+    position: relative;
+  }
+  
+  .lead-banner img {
+    width: 100%;
+  }
+  
+  .lead-banner .banner-content {
+    position: absolute;
+    top: 5%;
+    right: 0;
+    width: 50%;
+    padding-right: 50px;
+    text-align: right;
+    font-size: 72px;
+    color: white;
+    word-wrap: break-word;
+  }
+  
+  .title {
+    font-weight: bold;
+  }
+  
+  #services {
+    margin: 10px 0 50px;
+  }
+  
+  #services .wrapper {
+    text-align: center;
+    color: #2f354f;
+  }
+  
+  #services .wrapper ul {
+    margin: 0;
+    padding: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  
+  #services .wrapper ul li img {
+    height: 80%;
+    display: block;
+  }
+  
+  #services .wrapper ul li a {
+    text-decoration: none;
+    color: #2f354f;
+    font-weight: bold;
+  }
+  
+  .lessons-banner {
+    position: relative;
+  }
+  
+  .lessons-banner img {
+    width: 100%;
+  }
+  
+  .lessons-banner .banner-content {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    font-size: 48px;
+    color: white;
+    word-wrap: break-word;
+  }
+  
+  .lessons-banner .banner-content .title {
+    display: block;
+    font-size: 72px;
+  }
+  
+  .lessons-banner .banner-content ul {
+    padding: 0;
+    list-style: none;
+    width: 75%;
+  }
+  
+  .lessons-banner .banner-content ul li {
+    margin-bottom: 60px;
+  }
+  
+  #projects .wrapper {
+    text-align: center;
+    color: #2f354f;
+  }
+  
+  #projects .wrapper ul {
+    margin: 0;
+    padding: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }

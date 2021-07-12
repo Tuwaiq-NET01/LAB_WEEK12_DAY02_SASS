@@ -1,0 +1,96 @@
+$blueSea: #052d3c;
+$white: #fff;
+$whiteMilk: #f8f9fb;
+
+@mixin relative {
+    font-size: 60px;
+    color: $white;
+    position: relative;
+}
+
+@mixin bannerContent($align) {
+    position: absolute;
+    top: 60px;
+    text-align: $align;
+    text-transform: uppercase;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.wrapper ul{
+    display: flex;
+    justify-content: space-around;
+    background: $blueSea;
+    padding: 20px;
+}
+
+li{
+    list-style: none;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: $white;
+}
+
+.lead-banner{
+    @include relative();
+
+    .banner-content{
+        @include bannerContent(right);
+        right: 16px;
+    }
+    .title{
+        font-weight: bold;
+    }
+}
+
+.lessons-banner{
+    @include relative();
+    
+    .banner-content{
+        @include bannerContent(left);
+        left: 16px;
+    }
+    .title{
+        font-weight: bold;
+    }
+    ul{
+        font-size: 20px;
+        flex-direction: column;
+        background: none;
+        width: 80%;
+        
+    }
+    li{
+        margin: 20px 0;
+        font-weight: normal;
+    }
+}
+
+h1{
+    text-transform: uppercase;
+    color: $blueSea;
+    text-align: center;
+}
+
+#services {
+    .wrapper ul{
+        background: $whiteMilk;
+    }
+    a{
+        color: $blueSea;
+        text-align: center;
+    }
+}
+
+#projects{
+    .wrapper ul{
+        flex-wrap: wrap;
+        background: none;
+    }
+}

@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+}
+ul{
+    display:flex;
+    justify-content: space-around;
+    list-style-type: none;
+    width: 100%;
+    height: 30px;
+    padding:15px;
+}
+a{
+    text-decoration:none;
+    color:whitesmoke;
+}
+#main-nav{
+    background-color: rgb(70, 70, 156);
+    width: 100%;
+}
+.wrapper{width:100%;}
+.lead-banner img{
+    width: 100%;
+}
+.lead-banner banner-content wrapper{
+    postion: relative;
+    display: flex;
+    top:40px;
+    right:30px;
+
+}
+#services{
+    width: 100%;
+}
+#services .wrapper{
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+#services .wrapper ul{
+    padding-bottom:20%;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.wrapper img{
+    width: 100%;
+}
+.lessons-banner img{width: 100%;}

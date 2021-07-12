@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background: #052d3c;
+  padding: 20px;
+}
+
+li {
+  list-style: none;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.lead-banner {
+  font-size: 60px;
+  color: #fff;
+  position: relative;
+}
+
+.lead-banner .banner-content {
+  position: absolute;
+  top: 60px;
+  text-align: right;
+  text-transform: uppercase;
+  right: 16px;
+}
+
+.lead-banner .title {
+  font-weight: bold;
+}
+
+.lessons-banner {
+  font-size: 60px;
+  color: #fff;
+  position: relative;
+}
+
+.lessons-banner .banner-content {
+  position: absolute;
+  top: 60px;
+  text-align: left;
+  text-transform: uppercase;
+  left: 16px;
+}
+
+.lessons-banner .title {
+  font-weight: bold;
+}
+
+.lessons-banner ul {
+  font-size: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: none;
+  width: 80%;
+}
+
+.lessons-banner li {
+  margin: 20px 0;
+  font-weight: normal;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: #052d3c;
+  text-align: center;
+}
+
+#services .wrapper ul {
+  background: #f8f9fb;
+}
+
+#services a {
+  color: #052d3c;
+  text-align: center;
+}
+
+#projects .wrapper ul {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background: none;
+}
+/*# sourceMappingURL=style.css.map */

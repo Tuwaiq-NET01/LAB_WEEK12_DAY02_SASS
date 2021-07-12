@@ -1,0 +1,112 @@
+$primaryColor: rgb(47, 53, 79);
+$secondaryColor: white;
+
+#main-nav {
+  background-color: $primaryColor;
+  .wrapper {
+    ul {
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      list-style: none;
+      justify-content: space-around;
+      li {
+        a {
+          color: $secondaryColor;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+.lead-banner {
+  position: relative;
+  img {
+    width: 100%;
+  }
+  .banner-content {
+      position: absolute;
+      top: 5%;
+      right:0;
+      width: 50%;
+      padding-right: 50px;
+      text-align: right;
+      font-size: 72px;
+      color: $secondaryColor;
+      word-wrap: break-word;
+  }
+}
+
+.title{
+    font-weight: bold;
+}
+
+#services{
+    margin: 10px 0 50px;
+    .wrapper {
+        text-align: center;
+        color: $primaryColor;
+        ul {
+          margin: 0;
+          padding: 20px;
+          display: flex;
+          list-style: none;
+          justify-content: space-around;
+          li{
+              img{
+                  height: 80%;
+                  display: block;
+              }
+              a{
+                  text-decoration: none;
+                  color: $primaryColor;
+                  font-weight: bold;
+              }
+          }
+        }
+    }
+}
+
+.lessons-banner{
+    position: relative;
+  img {
+    width: 100%;
+  }
+  .banner-content {
+      position: absolute;
+      top: 5%;
+      left:5%;
+      font-size: 48px;
+      color: $secondaryColor;
+      word-wrap: break-word;
+      
+      .title{
+          display: block;
+          font-size: 72px;
+      }
+      ul {
+        padding:0;
+        list-style: none;
+        width: 75%;
+        li{
+            margin-bottom: 60px;
+        }
+      }
+  }
+}
+
+#projects{
+    .wrapper{
+        text-align: center;
+        color: $primaryColor;
+        ul{
+            margin: 0;
+      padding: 20px;
+      display: flex;
+      list-style: none;
+      justify-content: space-around;
+      flex-wrap: wrap;
+        }
+    }
+}
